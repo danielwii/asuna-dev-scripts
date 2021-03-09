@@ -1,7 +1,9 @@
 {
-  "name": "asuna-scripts",
+  "name": "asuna-dev-scripts",
   "bin": {
-    "asuna-fix-berry": "lib/fix-berry.js"
+    "asuna-create-admin-register": "lib/create-admin-register.js",
+    "asuna-fix-berry": "lib/fix-berry.js",
+    "asuna-sync-0-default-adapter-to-register": "lib/sync-0-default-adapter-to-register.js"
   },
   "dependencies": {
     "consola": "^2.15.3",
