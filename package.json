@@ -2,6 +2,7 @@
   "name": "asuna-dev-scripts",
   "bin": {
     "asuna-create-admin-register": "lib/create-admin-register.js",
+    "asuna-create-web": "lib/create-web.js",
     "asuna-fix-berry": "lib/fix-berry.js",
     "asuna-sync-0-default-adapter-to-register": "lib/sync-0-default-adapter-to-register.js",
     "asuna-sync-1-register-to-asuna-admin": "lib/sync-1-register-to-asuna-admin.js",
