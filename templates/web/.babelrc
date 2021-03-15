@@ -1,4 +1,8 @@
 {
   "presets": ["next/babel"],
-  "plugins": ["@emotion", ["styled-components", { "ssr": true }]]
+  "plugins": [
+    "@emotion",
+    ["styled-components", { "ssr": true }],
+    ["@babel/plugin-proposal-decorators", { "legacy": true }]
+  ]
 }

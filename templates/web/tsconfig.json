@@ -10,13 +10,20 @@
     "skipLibCheck": true,
     "strict": false,
     "forceConsistentCasingInFileNames": true,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
     "noEmit": true,
     "esModuleInterop": true,
     "module": "esnext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "jsx": "preserve"
+    "jsx": "preserve",
+    "baseUrl": ".",
+    "paths": {
+      "asuna-ui": ["../../packages/asuna-ui/dist", "../../packages/asuna-ui/src"],
+      "asuna-sdk": ["../../packages/asuna-sdk/dist", "../../packages/asuna-sdk/src"]
+    }
   },
   "include": [
     "next-env.d.ts",

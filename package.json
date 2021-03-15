@@ -1,7 +1,10 @@
 {
   "name": "asuna-dev-scripts",
+  "version": "0.0.1",
   "bin": {
     "asuna-create-admin-register": "lib/create-admin-register.js",
+    "asuna-create-server": "lib/create-server.js",
+    "asuna-create-shared": "lib/create-shared.js",
     "asuna-create-web": "lib/create-web.js",
     "asuna-fix-berry": "lib/fix-berry.js",
     "asuna-sync-0-default-adapter-to-register": "lib/sync-0-default-adapter-to-register.js",
