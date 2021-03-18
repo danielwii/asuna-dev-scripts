@@ -18,6 +18,8 @@
     "outDir": "dist",
     "baseUrl": ".",
     "paths": {
+      "shared": ["../shared/dist", "../shared/src"],
+      "asuna-im": ["../../packages/asuna-im/dist", "../../packages/asuna-im/src"],
       "asuna-node-server": ["../../packages/asuna-node-server/dist", "../../packages/asuna-node-server/src"]
     }
   },

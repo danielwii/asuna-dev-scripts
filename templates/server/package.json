@@ -2,8 +2,17 @@
   "name": "server",
   "private": true,
   "scripts": {
+    "build": "tsc",
+    "start": "node dist/main.js",
     "dev": "node -r ts-node/register src/main.ts",
-    "dev:watch": "nodemon --exec node -r ts-node/register src/main.ts"
+    "dev:inspect": "node --inspect -r ts-node/register src/main.ts",
+    "dev:watch": "nodemon --exec node -r ts-node/register src/main.ts",
+    "dev:watch-inspect": "nodemon --inspect --exec node -r ts-node/register src/main.ts"
+  },
+  "dependencies": {
+    "asuna-im": "workspace:*",
+    "asuna-node-server": "workspace:*",
+    "shared": "workspace:*"
   },
   "devDependencies": {
     "nodemon": "^2.0.7",
