@@ -1,5 +1,5 @@
 {
-  "name": "asuna-dev-scripts",
+  "name": "@danielwii/asuna-dev-scripts",
   "version": "0.0.1",
   "bin": {
     "asuna-create-admin-register": "lib/create-admin-register.js",
