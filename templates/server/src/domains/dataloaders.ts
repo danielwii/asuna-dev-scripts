@@ -1,4 +1,4 @@
-import { DataLoaderFunction, getDefaultDataLoaders, DefaultRegisteredLoaders, loader } from 'asuna-node-server';
+import { DataLoaderFunction, getDefaultDataLoaders, DefaultRegisteredLoaders, loader } from '@danielwii/asuna-node-server';
 
 export type RegisteredLoaders = DefaultRegisteredLoaders & {
 };

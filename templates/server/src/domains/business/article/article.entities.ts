@@ -6,7 +6,7 @@ import {
   InjectTenant,
   MetaInfo,
   Publishable,
-} from 'asuna-node-server';
+} from '@danielwii/asuna-node-server';
 import { Column, Entity} from 'typeorm';
 
 @EntityMetaInfo({ name: 'articles', displayName: '资讯' })

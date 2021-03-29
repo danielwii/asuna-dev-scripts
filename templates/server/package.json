@@ -1,5 +1,5 @@
 {
-  "name": "server",
+  "name": "@local/server",
   "private": true,
   "scripts": {
     "build": "tsc",
@@ -11,8 +11,8 @@
   },
   "dependencies": {
     "asuna-im": "workspace:*",
-    "asuna-node-server": "workspace:*",
-    "shared": "workspace:*"
+    "@danielwii/asuna-node-server": "workspace:*",
+    "@local/shared": "workspace:*"
   },
   "devDependencies": {
     "nodemon": "^2.0.7",

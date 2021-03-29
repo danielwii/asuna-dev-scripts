@@ -1,5 +1,5 @@
 import { Module, OnModuleInit } from '@nestjs/common';
-import { LoggerFactory } from 'asuna-node-server';
+import { LoggerFactory } from '@danielwii/asuna-node-server';
 
 const logger = LoggerFactory.getLogger('BusinessModule');
 

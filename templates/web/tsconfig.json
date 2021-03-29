@@ -21,8 +21,8 @@
     "jsx": "preserve",
     "baseUrl": ".",
     "paths": {
-      "asuna-ui": ["../../packages/asuna-ui/dist", "../../packages/asuna-ui/src"],
-      "asuna-sdk": ["../../packages/asuna-sdk/dist", "../../packages/asuna-sdk/src"]
+      "@danielwii/asuna-ui": ["../../packages/asuna-ui/dist", "../../packages/asuna-ui/src"],
+      "@danielwii/asuna-sdk": ["../../packages/asuna-sdk/dist", "../../packages/asuna-sdk/src"]
     }
   },
   "include": [

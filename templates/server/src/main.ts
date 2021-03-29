@@ -1,4 +1,4 @@
-import { bootstrap } from 'asuna-node-server';
+import { bootstrap } from '@danielwii/asuna-node-server';
 import consola from "consola";
 
 import { ApplicationModule } from './application.module';

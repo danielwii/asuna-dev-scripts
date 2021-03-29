@@ -18,9 +18,10 @@
     "outDir": "dist",
     "baseUrl": ".",
     "paths": {
-      "shared": ["../shared/dist", "../shared/src"],
-      "asuna-im": ["../../packages/asuna-im/dist", "../../packages/asuna-im/src"],
-      "asuna-node-server": ["../../packages/asuna-node-server/dist", "../../packages/asuna-node-server/src"]
+      "@local/shared": ["../shared/dist", "../shared/src"],
+      "@danielwii/asuna-im": ["../../packages/asuna-im/dist", "../../packages/asuna-im/src"],
+      "@danielwii/asuna-form": ["../../packages/asuna-form/dist", "../../packages/asuna-form/src"],
+      "@danielwii/asuna-node-server": ["../../packages/asuna-node-server/dist", "../../packages/asuna-node-server/src"]
     }
   },
   "include": ["src/**/*"],

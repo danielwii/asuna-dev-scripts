@@ -1,5 +1,5 @@
 import { Module, OnModuleInit } from '@nestjs/common';
-import { LoggerFactory, UserRegister } from 'asuna-node-server';
+import { LoggerFactory, UserRegister } from '@danielwii/asuna-node-server';
 import { User } from './user.entities';
 
 const logger = LoggerFactory.getLogger('UserModule');

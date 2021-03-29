@@ -5,7 +5,7 @@ import {
   EntityMetaInfo,
   InjectUserProfile,
   UserProfile,
-} from 'asuna-node-server';
+} from '@danielwii/asuna-node-server';
 import { Entity } from 'typeorm';
 
 @EntityMetaInfo({ name: 'users' })

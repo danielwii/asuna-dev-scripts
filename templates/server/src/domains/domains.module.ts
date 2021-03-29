@@ -1,5 +1,5 @@
 import { Global, Module, OnModuleInit } from '@nestjs/common';
-import { LoggerFactory } from 'asuna-node-server';
+import { LoggerFactory } from '@danielwii/asuna-node-server';
 
 import { UserModule } from "./user/user.module";
 import { BusinessModule } from "./business/business.module";
