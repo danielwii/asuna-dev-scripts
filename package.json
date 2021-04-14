@@ -9,7 +9,7 @@
     "asuna-fix-berry": "lib/fix-berry.js",
     "asuna-sync-0-default-adapter-to-register": "lib/sync-0-default-adapter-to-register.js",
     "asuna-sync-1-register-to-asuna-admin": "lib/sync-1-register-to-asuna-admin.js",
-    "asuna-sync-2-register-to-admin": "lib/sync-2-register-to-console.js"
+    "asuna-sync-2-register-to-console": "lib/sync-2-register-to-console.js"
   },
   "dependencies": {
     "consola": "^2.15.3",

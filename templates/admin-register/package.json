@@ -5,6 +5,9 @@
     "create-type-schema": "node type-loader.js && quicktype schema.json --just-types --no-combine-classes --no-maps --alphabetize-properties -o ./src/services/type-schema.ts && quicktype schema-sys.json --just-types --no-combine-classes --no-maps --alphabetize-properties -o ./src/adapters/type-schema.ts"
   },
   "dependencies": {
-    "asuna-admin": "workspace:*"
+    "@danielwii/asuna-admin": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "^4.2.4"
   }
 }

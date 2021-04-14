@@ -11,7 +11,7 @@
     // Disallow features that require cross-file information for emit.
     //"isolatedModules": true,
     // Import non-ES modules as default imports.
-    //"esModuleInterop": true,
+    "esModuleInterop": true,
     "skipLibCheck": true,
     "sourceMap": true,
     "declaration": true,
@@ -20,8 +20,8 @@
     "emitDecoratorMetadata": true,
     "baseUrl": ".",
     "paths": {
-      "asuna-admin": ["../../packages/asuna-admin/src/index.ts"]
+      "@danielwii/asuna-admin": ["../../packages/asuna-admin/src/index.ts"]
     }
   },
-  "include": ["index.ts", "src/**/*"]
+  "include": ["src/**/*"]
 }
