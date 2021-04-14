@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "bin": {
     "asuna-create-admin-register": "lib/create-admin-register.js",
+    "asuna-create-console": "lib/create-console.js",
     "asuna-create-server": "lib/create-server.js",
     "asuna-create-shared": "lib/create-shared.js",
     "asuna-create-web": "lib/create-web.js",

@@ -1,14 +1,14 @@
 {
-  "name": "web",
   "private": true,
+  "name": "web",
   "scripts": {
     "dev": "node server.js",
     "build": "next build",
     "start": "next start"
   },
   "dependencies": {
-    "asuna-ui": "workspace:*",
-    "asuna-sdk": "workspace:*",
+    "@danielwii/asuna-ui": "workspace:*",
+    "@danielwii/asuna-sdk": "workspace:*",
     "colors": "^1.4.0",
     "debug": "^4.3.2",
     "http-proxy": "^1.18.1",

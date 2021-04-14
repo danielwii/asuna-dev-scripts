@@ -1,6 +1,6 @@
 {
-  "name": "admin-register",
   "private": true,
+  "name": "admin-register",
   "scripts": {
     "create-type-schema": "node type-loader.js && quicktype schema.json --just-types --no-combine-classes --no-maps --alphabetize-properties -o ./src/services/type-schema.ts && quicktype schema-sys.json --just-types --no-combine-classes --no-maps --alphabetize-properties -o ./src/adapters/type-schema.ts"
   },
@@ -8,6 +8,7 @@
     "@danielwii/asuna-admin": "workspace:*"
   },
   "devDependencies": {
-    "typescript": "^4.2.4"
+    "typescript": "^4.2.4",
+    "next-transpile-modules": "^6.4.0"
   }
 }

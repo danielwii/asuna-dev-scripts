@@ -1,6 +1,6 @@
 {
-  "name": "@local/server",
   "private": true,
+  "name": "@local/server",
   "scripts": {
     "build": "tsc",
     "start": "node dist/main.js",
