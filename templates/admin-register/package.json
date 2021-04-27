@@ -9,6 +9,6 @@
   },
   "devDependencies": {
     "typescript": "^4.2.4",
-    "next-transpile-modules": "^6.4.0"
+    "next-transpile-modules": "^6.4.1"
   }
 }

@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "shared",
+  "name": "@local/shared",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
