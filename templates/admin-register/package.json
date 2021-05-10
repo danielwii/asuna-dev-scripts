@@ -8,7 +8,7 @@
     "@danielwii/asuna-admin": "workspace:*"
   },
   "devDependencies": {
-    "typescript": "^4.2.4",
-    "next-transpile-modules": "^6.4.1"
+    "typescript": "^4",
+    "next-transpile-modules": "^6"
   }
 }
