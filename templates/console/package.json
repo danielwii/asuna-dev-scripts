@@ -2,15 +2,19 @@
   "private": true,
   "name": "@local/console",
   "scripts": {
-    "build": "next build",
+    "build": "BUILDING=1 next build",
     "dev": "next dev",
     "start": "next start"
   },
   "dependencies": {
     "@danielwii/asuna-admin": "workspace:*",
-    "next": "^10"
+    "@danielwii/asuna-components": "workspace:*",
+    "@danielwii/asuna-components-pro": "workspace:*",
+    "cli-table": "^0.3.6",
+    "next": "^10",
+    "next-transpile-modules": "^6"
   },
   "devDependencies": {
-    "next-transpile-modules": "^6"
+    "webpack": "^5"
   }
 }

@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "consola": "^2",
-    "fs-extra": "^9",
+    "fs-extra": "^10",
     "glob": "^7",
     "lodash": "^4",
     "path": "^0"
