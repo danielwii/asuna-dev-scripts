@@ -7,6 +7,8 @@
     "start": "NODE_ENV=production node server.js"
   },
   "dependencies": {
+    "@danielwii/asuna-helper": "workspace:*",
+    "@danielwii/asuna-sdk": "workspace:*",
     "@danielwii/asuna-admin": "workspace:*",
     "@danielwii/asuna-components": "workspace:*",
     "@danielwii/asuna-components-pro": "workspace:*",
