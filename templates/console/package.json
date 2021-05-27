@@ -3,8 +3,8 @@
   "name": "@local/console",
   "scripts": {
     "build": "BUILDING=1 next build",
-    "dev": "next dev",
-    "start": "next start"
+    "dev": "NODE_ENV=development node server.js",
+    "start": "NODE_ENV=production node server.js"
   },
   "dependencies": {
     "@danielwii/asuna-admin": "workspace:*",
