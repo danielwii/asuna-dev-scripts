@@ -7,6 +7,12 @@ module.exports = createNextConfig(
     i18n: existsSync('./next-i18next.config.js') ? require('./next-i18next.config').i18n : undefined,
   },
   existsSync('./configs.js') ? require('./configs') : undefined,
-  [withTM(['@danielwii/asuna-admin', '@danielwii/asuna-components', '@danielwii/asuna-components-pro'])],
+  [
+    withTM([
+      '@danielwii/asuna-admin',
+      // '@danielwii/asuna-components',
+      // '@danielwii/asuna-components-pro'
+    ]),
+  ],
   { enableAdmin: true },
 );
