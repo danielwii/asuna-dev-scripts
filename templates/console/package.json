@@ -12,9 +12,8 @@
     "@danielwii/asuna-admin": "workspace:*",
     "@danielwii/asuna-components": "workspace:*",
     "@danielwii/asuna-components-pro": "workspace:*",
-    "cli-table": "^0.3.6",
-    "next": "^10",
-    "next-transpile-modules": "^6"
+    "next": "^11",
+    "next-transpile-modules": "^8"
   },
   "devDependencies": {
     "webpack": "^5"
