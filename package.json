@@ -13,11 +13,11 @@
     "asuna-sync-2-register-to-console": "lib/sync-2-register-to-console.js"
   },
   "dependencies": {
-    "consola": "^2",
-    "fs-extra": "^10",
-    "glob": "^7",
-    "lodash": "^4",
-    "path": "^0"
+    "consola": "^2.15.3",
+    "fs-extra": "^10.0.0",
+    "glob": "^7.1.7",
+    "lodash": "^4.17.21",
+    "path": "^0.12.7"
   },
   "devDependencies": {
     "@types/fs-extra": "^9",
