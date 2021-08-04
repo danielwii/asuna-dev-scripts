@@ -23,5 +23,6 @@
     "@types/fs-extra": "^9",
     "@types/glob": "^7",
     "@types/lodash": "^4"
-  }
+  },
+  "packageManager": "yarn@3.0.0"
 }
