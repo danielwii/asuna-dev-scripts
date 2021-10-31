@@ -12,8 +12,8 @@
     "@danielwii/asuna-admin": "workspace:*",
     "@danielwii/asuna-components": "workspace:*",
     "@danielwii/asuna-components-pro": "workspace:*",
-    "next": "^11",
-    "next-transpile-modules": "^8"
+    "next": "^12",
+    "next-transpile-modules": "^9"
   },
   "devDependencies": {
     "webpack": "^5"

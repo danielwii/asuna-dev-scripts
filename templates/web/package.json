@@ -11,15 +11,15 @@
   "dependencies": {
     "@danielwii/asuna-sdk": "workspace:*",
     "lodash": "^4",
-    "next": "^10",
+    "next": "^12",
     "react": "^17",
     "react-dom": "^17"
   },
   "devDependencies": {
     "@emotion/babel-plugin": "^11",
-    "@graphql-codegen/cli": "^1",
+    "@graphql-codegen/cli": "^2",
     "@types/lodash": "^4",
-    "@types/node": "^14",
+    "@types/node": "^16",
     "@types/react": "^17",
     "@types/react-dom": "^17",
     "autoprefixer": "^10",
