@@ -8,10 +8,9 @@
   },
   "dependencies": {
     "@danielwii/asuna-helper": "workspace:*",
-    "@danielwii/asuna-sdk": "workspace:*",
+    "@asuna-stack/asuna-sdk": "workspace:*",
     "@danielwii/asuna-admin": "workspace:*",
     "@danielwii/asuna-components": "workspace:*",
-    "@danielwii/asuna-components-pro": "workspace:*",
     "next": "^12",
     "next-transpile-modules": "^9"
   },
