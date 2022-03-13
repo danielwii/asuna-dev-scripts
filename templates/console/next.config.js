@@ -5,6 +5,7 @@ const withTM = require('next-transpile-modules');
 module.exports = createNextConfig(
   {
     i18n: existsSync('./next-i18next.config.js') ? require('./next-i18next.config').i18n : undefined,
+    swcMinify: false,
   },
   existsSync('./configs.js') ? require('./configs') : undefined,
   [
