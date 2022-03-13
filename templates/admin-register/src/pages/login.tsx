@@ -1,11 +1,13 @@
-import { LoginInitialProps, LoginPageRender, wechatLoginGetInitial } from 'asuna-admin';
-import { NextComponentType } from 'next';
+import { LoginInitialProps, LoginPageRender, wechatLoginGetInitial } from '@danielwii/asuna-admin';
+
 import getConfig from 'next/config';
-import { NextPageContext } from 'next/dist/next-server/lib/utils';
 import React from 'react';
+
 import { register } from '../services/register';
 
-const Page: NextComponentType<NextPageContext, Promise<LoginInitialProps>, LoginInitialProps> = props => (
+import type { NextPage } from 'next';
+
+const Page: NextPage<LoginInitialProps> = (props) => (
   <LoginPageRender {...props} register={register} nextConfig={getConfig()} hideCharacteristics={true} />
 );
 Page.getInitialProps = wechatLoginGetInitial;
