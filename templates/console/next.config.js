@@ -10,9 +10,11 @@ module.exports = createNextConfig(
   existsSync('./configs.js') ? require('./configs') : undefined,
   [
     withTM([
+      '@danielwii/asuna-helper',
+      '@asuna-stack/asuna-sdk',
+      '@danielwii/asuna-components',
+      // '@danielwii/asuna-components-pro',
       '@danielwii/asuna-admin',
-      // '@danielwii/asuna-components',
-      // '@danielwii/asuna-components-pro'
     ]),
   ],
   { enableAdmin: true },
