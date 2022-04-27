@@ -1,7 +1,9 @@
-import { DataLoaderFunction, getDefaultDataLoaders, DefaultRegisteredLoaders, loader } from '@danielwii/asuna-node-server';
+import {
+  DefaultRegisteredLoaders,
+  getDefaultDataLoaders,
+} from '@danielwii/asuna-node-server/dist/modules/dataloader/context';
 
-export type RegisteredLoaders = DefaultRegisteredLoaders & {
-};
+export type RegisteredLoaders = DefaultRegisteredLoaders & {};
 
 export const createLoaders = (): RegisteredLoaders => ({
   ...getDefaultDataLoaders(),

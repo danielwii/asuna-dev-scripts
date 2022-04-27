@@ -10,8 +10,8 @@
     "dev:watch-inspect": "nodemon --inspect --exec node -r ts-node/register src/main.ts"
   },
   "dependencies": {
-    "@danielwii/asuna-node-server": "workspace:*",
-    "@local/shared": "workspace:*"
+    "@danielwii/asuna-helper": "workspace:*",
+    "@danielwii/asuna-node-server": "workspace:*"
   },
   "devDependencies": {
     "nodemon": "^2",

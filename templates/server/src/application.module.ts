@@ -1,5 +1,7 @@
 import { Module, OnModuleInit } from '@nestjs/common';
-import { GenericDataLoader, LoggerFactory } from '@danielwii/asuna-node-server';
+
+import { LoggerFactory } from '@danielwii/asuna-helper';
+import { GenericDataLoader } from '@danielwii/asuna-node-server/dist/modules/dataloader/dataloader';
 
 import { createLoaders } from './domains/dataloaders';
 import { DomainsModule } from './domains/domains.module';

@@ -1,11 +1,11 @@
+import { deserializeSafely } from '@danielwii/asuna-helper/dist/validate';
 import {
   AbstractTimeBasedBaseEntity,
-  deserializeSafely,
   EntityConstructorObject,
-  EntityMetaInfo,
-  InjectUserProfile,
-  UserProfile,
-} from '@danielwii/asuna-node-server';
+} from '@danielwii/asuna-node-server/dist/modules/base/base.entity';
+import { EntityMetaInfo } from '@danielwii/asuna-node-server/dist/modules/common/decorators/meta.decorator';
+import { InjectUserProfile, UserProfile } from '@danielwii/asuna-node-server/dist/modules/core/auth/user.entities';
+
 import { Entity } from 'typeorm';
 
 @EntityMetaInfo({ name: 'users' })
