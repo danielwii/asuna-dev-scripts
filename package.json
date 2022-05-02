@@ -13,7 +13,7 @@
     "asuna-sync-2-register-to-console": "lib/sync-2-register-to-console.js"
   },
   "dependencies": {
-    "@danielwii/asuna-helper": "^0.0.27",
+    "@danielwii/asuna-helper": "^0.0.28",
     "@danielwii/asuna-node-server": "^0.9.2",
     "consola": "^2.15.3",
     "fs-extra": "^10.1.0",
