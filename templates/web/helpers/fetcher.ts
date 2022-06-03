@@ -1,6 +1,6 @@
 import { BaseGraphQLFetcher } from '@danielwii/asuna-sdk';
 
-import { ApolloQueryResult, gql } from 'apollo-boost';
+import { ApolloQueryResult, gql } from '@apollo/client';
 
 class GraphQLFragments {}
 
