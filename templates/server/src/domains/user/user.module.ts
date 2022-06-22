@@ -1,11 +1,11 @@
-import { Module, OnModuleInit } from '@nestjs/common';
+import { Logger, Module, OnModuleInit } from '@nestjs/common';
 
-import { LoggerFactory } from '@danielwii/asuna-helper/dist/logger/factory';
+import { resolveModule } from '@danielwii/asuna-helper/dist/logger/factory';
 import { UserRegister } from '@danielwii/asuna-node-server/dist/modules/core/user.register';
 
 import { User } from './user.entities';
 
-const logger = LoggerFactory.getLogger('UserModule');
+const logger = new Logger(resolveModule(__filename, 'UserModule'));
 
 @Module({
   imports: [],

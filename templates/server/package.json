@@ -11,7 +11,8 @@
   },
   "dependencies": {
     "@danielwii/asuna-helper": "workspace:*",
-    "@danielwii/asuna-node-server": "workspace:*"
+    "@danielwii/asuna-node-server": "workspace:*",
+    "@nestjs/common": "^8"
   },
   "devDependencies": {
     "nodemon": "^2",

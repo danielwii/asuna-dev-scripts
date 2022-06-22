@@ -12,7 +12,7 @@ module.exports = createNextConfig(
     withTM([
       '@danielwii/asuna-helper',
       '@asuna-stack/asuna-sdk',
-      '@danielwii/asuna-components',
+      // '@danielwii/asuna-components',
       // '@danielwii/asuna-components-pro',
       '@danielwii/asuna-admin',
     ]),

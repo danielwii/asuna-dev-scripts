@@ -1,12 +1,12 @@
-import { Module, OnModuleInit } from '@nestjs/common';
+import { Logger, Module, OnModuleInit } from '@nestjs/common';
 
-import { LoggerFactory } from '@danielwii/asuna-helper';
+import { resolveModule } from '@danielwii/asuna-helper/dist/logger/factory';
 import { GenericDataLoader } from '@danielwii/asuna-node-server/dist/modules/dataloader/dataloader';
 
 import { createLoaders } from './domains/dataloaders';
 import { DomainsModule } from './domains/domains.module';
 
-const logger = LoggerFactory.getLogger('AppModule');
+const logger = new Logger(resolveModule(__filename, 'AppModule'));
 
 @Module({
   imports: [DomainsModule],
