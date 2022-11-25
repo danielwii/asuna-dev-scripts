@@ -5,7 +5,7 @@ import { UserRegister } from '@danielwii/asuna-node-server/dist/modules/core/use
 
 import { User } from './user.entities';
 
-const logger = new Logger(resolveModule(__filename, 'UserModule'));
+const logger = new Logger(resolveModule(fileURLToPath(import.meta.url), 'UserModule'));
 
 @Module({
   imports: [],

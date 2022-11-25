@@ -2,7 +2,7 @@ import { Logger, Module, OnModuleInit } from '@nestjs/common';
 
 import { resolveModule } from '@danielwii/asuna-helper/dist/logger/factory';
 
-const logger = new Logger(resolveModule(__filename, 'BusinessModule'));
+const logger = new Logger(resolveModule(fileURLToPath(import.meta.url), 'BusinessModule'));
 
 @Module({
   imports: [],

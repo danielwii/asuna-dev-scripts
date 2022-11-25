@@ -1,5 +1,5 @@
 import { Asuna, AsunaDefinitions, columnCreator, columnHelper, commonColumns, createLogger } from 'asuna-admin';
-import * as fp from 'lodash/fp';
+import fp from 'lodash/fp';
 import * as React from 'react';
 import { Definitions } from '../adapters';
 import { KvPair, TypeSchema as SysTypeSchema } from '../adapters/type-schema';

@@ -5,7 +5,7 @@ import { resolveModule } from '@danielwii/asuna-helper/dist/logger/factory';
 import { BusinessModule } from './business/business.module';
 import { UserModule } from './user/user.module';
 
-const logger = new Logger(resolveModule(__filename, 'DomainsModule'));
+const logger = new Logger(resolveModule(fileURLToPath(import.meta.url), 'DomainsModule'));
 
 @Global()
 @Module({

@@ -6,7 +6,7 @@ import { GenericDataLoader } from '@danielwii/asuna-node-server/dist/modules/dat
 import { createLoaders } from './domains/dataloaders';
 import { DomainsModule } from './domains/domains.module';
 
-const logger = new Logger(resolveModule(__filename, 'AppModule'));
+const logger = new Logger(resolveModule(fileURLToPath(import.meta.url), 'AppModule'));
 
 @Module({
   imports: [DomainsModule],
