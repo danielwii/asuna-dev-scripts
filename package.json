@@ -17,13 +17,13 @@
     "@danielwii/asuna-node-server": "^0.10.0",
     "consola": "^2.15.3",
     "fs-extra": "^11.1.0",
-    "glob": "^8.0.3",
+    "glob": "^8.1.0",
     "lodash": "^4.17.21",
     "path": "^0.12.7"
   },
   "devDependencies": {
-    "@types/fs-extra": "^9.0.13",
-    "@types/glob": "^8.0.0",
+    "@types/fs-extra": "^11",
+    "@types/glob": "^8",
     "@types/lodash": "^4"
   },
   "packageManager": "yarn@3.2.1"
