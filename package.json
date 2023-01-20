@@ -13,7 +13,7 @@
     "asuna-sync-2-register-to-console": "lib/sync-2-register-to-console.js"
   },
   "dependencies": {
-    "@danielwii/asuna-helper": "^0.1.0",
+    "@danielwii/asuna-helper": "^0.1.1",
     "@danielwii/asuna-node-server": "^0.10.0",
     "consola": "^2.15.3",
     "fs-extra": "^11.1.0",
@@ -26,5 +26,5 @@
     "@types/glob": "^8",
     "@types/lodash": "^4"
   },
-  "packageManager": "yarn@3.2.1"
+  "packageManager": "yarn@3.3.1"
 }
