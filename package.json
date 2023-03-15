@@ -1,6 +1,11 @@
 {
   "name": "@danielwii/asuna-dev-scripts",
-  "version": "0.0.1",
+  "version": "0.0.2",
+  "files": [
+    "lib",
+    "templates",
+    "package.json"
+  ],
   "bin": {
     "asuna-create-admin-register": "lib/create-admin-register.js",
     "asuna-create-console": "lib/create-console.js",
