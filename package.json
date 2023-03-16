@@ -1,6 +1,9 @@
 {
   "name": "@danielwii/asuna-dev-scripts",
-  "version": "0.0.2",
+  "version": "0.0.3",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "files": [
     "lib",
     "templates",
@@ -19,7 +22,7 @@
   },
   "dependencies": {
     "@danielwii/asuna-helper": "^0.1.6",
-    "@danielwii/asuna-node-server": "^0.10.0",
+    "@danielwii/asuna-node-server": "^0.10.3",
     "consola": "^2.15.3",
     "fs-extra": "^11.1.0",
     "glob": "^9.3.0",
