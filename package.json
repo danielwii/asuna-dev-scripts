@@ -21,11 +21,9 @@
     "asuna-sync-2-register-to-console": "lib/sync-2-register-to-console.js"
   },
   "dependencies": {
-    "@danielwii/asuna-helper": "^0.1.6",
-    "@danielwii/asuna-node-server": "^0.10.4",
     "consola": "^2.15.3",
-    "fs-extra": "^11.1.0",
-    "glob": "^9.3.0",
+    "fs-extra": "^11.1.1",
+    "glob": "^9.3.4",
     "lodash": "^4.17.21",
     "path": "^0.12.7"
   },
